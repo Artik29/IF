@@ -1,0 +1,17 @@
+Console.Write("Enter a character: ");
+char c = (char)Console.Read();
+if (Char.IsLetter(c))
+{
+    if (Char.IsLower(c))
+    {
+        Console.WriteLine("The character is lowercase.");
+    }
+    else
+    {
+        Console.WriteLine("The character is uppercase.");
+    }
+}
+else
+{
+    Console.WriteLine("The character isn't an alphabetic character.");
+}
